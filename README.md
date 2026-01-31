@@ -9,7 +9,9 @@ Play Mode: play inside the dungeon you created, collect runes, use enchantments,
 ⏱ Designed for short sessions (typically under 10 minutes per run), making it easy to play during breaks.
 
 
+
 Key Features
+
 
 Build Mode
 
@@ -19,6 +21,8 @@ Place objects on a grid with game rules & limits
 
 Save and start the dungeon you designed
 
+
+
 Play Mode
 
 Explore halls to find the hidden rune (required to unlock doors)
@@ -26,6 +30,8 @@ Explore halls to find the hidden rune (required to unlock doors)
 Timer-based challenge: if time runs out before finding the rune → Game Over
 
 Lives system: take damage from monsters, lose hearts, and manage risk
+
+
 
 Monsters
 
@@ -36,6 +42,8 @@ Archer Monster: damages when within range and/or by arrow hit
 Wizard Monster (Phase 2): dynamic behavior based on remaining time
 
 May teleport the player or teleport the rune periodically
+
+
 
 Enchantments
 
@@ -50,6 +58,8 @@ Cloak of Protection (temporary protection)
 Luring Gem (misleads monsters)
 
 
+
+
 Game UX
 
 Main menu: New Game / Help / Exit
@@ -60,6 +70,8 @@ Game Over & Victory screens with Restart / Exit
 
 Help screen describing controls & gameplay
 
+
+
 Controls
 
 Arrow keys: move hero (North / South / East / West)
@@ -69,6 +81,7 @@ Mouse: interact in build mode + click/search objects
 Right click: collect enchantments / interact (depending on the object)
 
 ESC: pause/resume
+
 
 
 
