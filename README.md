@@ -1,115 +1,63 @@
-Rogue-Like (COMP 302) — Java Dungeon Game
-
-A 2D rogue-like dungeon game built in Java for COMP 302 (Fall 2024). The game has two main modes:
-
-Build Mode: design the dungeon halls by placing objects on a grid
-
-Play Mode: play inside the dungeon you created, collect runes, use enchantments, and survive monsters
-
-⏱ Designed for short sessions (typically under 10 minutes per run), making it easy to play during breaks.
-
-
-
-Key Features
-
-
-Build Mode
-
-Create and configure 4 halls (Water, Earth, Air, Fire)
-
-Place objects on a grid with game rules & limits
-
-Save and start the dungeon you designed
-
-
-
-Play Mode
-
-Explore halls to find the hidden rune (required to unlock doors)
-
-Timer-based challenge: if time runs out before finding the rune → Game Over
-
-Lives system: take damage from monsters, lose hearts, and manage risk
-
-
-
-Monsters
-
-Fighter Monster: damages when adjacent
-
-Archer Monster: damages when within range and/or by arrow hit
-
-Wizard Monster (Phase 2): dynamic behavior based on remaining time
-
-May teleport the player or teleport the rune periodically
-
-
-
-Enchantments
-
-Extra Time (instant)
-
-Extra Life (instant)
-
-Reveal (temporary hint)
-
-Cloak of Protection (temporary protection)
-
-Luring Gem (misleads monsters)
-
-
-
-
-Game UX
-
-Main menu: New Game / Help / Exit
-
-Pause/Resume via ESC
-
-Game Over & Victory screens with Restart / Exit
-
-Help screen describing controls & gameplay
-
-
-
-Controls
-
-Arrow keys: move hero (North / South / East / West)
-
-Mouse: interact in build mode + click/search objects
-
-Right click: collect enchantments / interact (depending on the object)
-
-ESC: pause/resume
-
-
-
-
-Project Context (University Work)
-
-This repository is a public showcase copy of our final COMP 302 project submission:
-
-Course: COMP 302
-
-Term: Fall 2024
-
-Project type: Group project (6 people)
-
-Team
-
-Group 16: OrtayaKarshisik
-
-Mert Erdem
-
-Reşit Mehmet Ayhan
-
-Çağatay Cingöz
-
-Can Kadri Eltepe
-
-Emre Kıyak
-
-Sinem Taşçı
-
-
-This repo is shared for portfolio purposes. Credit belongs to the full team.
+# Rogue-Like Dungeon Game (COMP 302 Project)
+
+This project is a **2D rogue-like dungeon game** implemented in **Java** for  
+**COMP 302 – Software Engineering (Fall 2024)**.
+
+The game features a **Build Mode**, where players design dungeon halls, and a **Play Mode**, where they explore the dungeon, avoid monsters, collect runes, and use enchantments to escape.
+
+---
+
+## Features
+
+### Build Mode
+- Design dungeon halls using a grid-based interface
+- Place objects under predefined game constraints
+- Save the dungeon layout and start the game
+
+### Play Mode
+- Explore four halls: **Earth, Water, Air, Fire**
+- Find hidden **runes** to unlock doors
+- Time-limited gameplay designed for short sessions
+- Lives system with Game Over and Victory states
+
+### Monsters
+- **Fighter Monster** – damages when adjacent
+- **Archer Monster** – ranged attacks and proximity damage
+- **Wizard Monster** – dynamic behavior based on remaining time
+  - Teleports player or rune depending on conditions
+
+### Enchantments
+- Extra Time
+- Extra Life
+- Reveal (temporary rune hint)
+- Cloak of Protection
+- Luring Gem
+
+### Game Controls
+- Arrow keys for movement
+- Mouse for interactions and build mode
+- `ESC` to pause/resume
+- Help screen accessible from menu or pause screen
+
+---
+
+## Course Context
+- Course: **COMP 302 – Software Engineering**
+- Term: **Fall 2024**
+- Project Type: **Group project**
+
+### Team
+Group 16:
+- Mert Erdem  
+- Reşit Mehmet Ayhan  
+- Çağatay Cingöz  
+- **Can Kadri Eltepe**  
+- Emre Kıyak  
+- Sinem Taşçı  
+
+---
+
+## Notes
+- This repository is a public portfolio version of the final course project.
+- Credit belongs to the full team.
+- Code focuses on modular design, gameplay logic, and maintainability.
